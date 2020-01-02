@@ -3,6 +3,9 @@
     padding: 0;
     outline
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
