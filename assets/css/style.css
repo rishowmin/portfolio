@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    outline
+    outline: 0;
 }
-html {
-    scroll-behavior: smooth !important;
+html{
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Oswald', sans-serif;
@@ -24,6 +24,10 @@ body {
 .fa-color-secondary{
     /* color: #343a40; */
     color: #00589C;
+}
+.arrow{
+    width: 3%;
+    margin: 0 0px 4px 8px;
 }
 span{
     color: #00589C;
@@ -84,6 +88,11 @@ span{
 
 /*---------- Navigation Start ---------*/
 
+.nav-fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
 .nav-sec{}
 .nav-sec ul{}
 .nav-sec ul li{}
@@ -107,6 +116,9 @@ span{
 
 /*---------- Header Start ---------*/
 
+.main-body{
+    margin-top: 55px;
+}
 .title-sec{
     background-color: #00589C;
     border-bottom: 5px solid #E9B94F;
@@ -133,6 +145,7 @@ span{
     background-color: #00589C;
     background-image: url(../images/line-1.png);
     padding-top: 0;
+    padding-bottom: 0;
     border-top: 5px solid #E9B94F;
 }
 a.btn-link{
@@ -156,7 +169,7 @@ a.btn-link:hover{
 
 
 .header-title{
-    margin-top: 40px;
+    margin-top: 70px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -221,7 +234,14 @@ img.service-img{
     background-color: #ffffff;
     padding: 10px 5px;
     border-top: 5px solid #E9B94F;
+    /* display: none; */
 }
+.txt-main{
+    margin: 0 -10px;
+    padding: 3px;
+}
+.txt-main-lhds{background-color: #0067cb;}
+.txt-main-bdc{background-color: #00984a;}
 .txt-header{
     color: #00589C;
 }
@@ -229,7 +249,9 @@ img.service-img{
     font-size: 13.4px;
     margin-bottom: 0;
     color: #101010;
+    padding-top: 8px;
 }
+
 
 
 
@@ -248,6 +270,14 @@ img.service-img{
     background-color: #ffffff;
     padding: 15px 10px;
 }
+.portfolio-txt-header{
+    display: inline-block;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.portfolio-para-header{
+    display: none;
+}
 a.portfolio-link{
     text-decoration: none;
 }
@@ -257,11 +287,18 @@ a.portfolio-link{
 
 .qualification-txt{
     text-align: center;
-    margin-bottom: 40px;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin: 15px 150px;
+    padding: 0 150px;
+    line-height: 27px;
+}
+.qualification-header{
+    margin-bottom: 30px;
+    color: #00589C;
+    font-size: 25px;
 }
 .qualification-para-header{
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 0;
     color: #101010;
 }
