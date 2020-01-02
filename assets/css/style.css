@@ -239,6 +239,7 @@ img.service-img{
 .txt-main{
     margin: 0 -10px;
     padding: 3px;
+    cursor: pointer;
 }
 .txt-main-lhds{background-color: #0067cb;}
 .txt-main-bdc{background-color: #00984a;}
