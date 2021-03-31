@@ -309,6 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 18px;
   font-size: 15px;
   height: 56px;
+  margin-top: 5px;
   transition: 0.5s;
 }
 
@@ -950,14 +951,16 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  text-align: center;
 }
 
 .contact .info i {
-  font-size: 20px;
+  font-size: 30px;
   color: #0563bb;
-  float: left;
-  width: 44px;
-  height: 44px;
+  /* float: left; */
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
   background: #eef7ff;
   display: flex;
   justify-content: center;
@@ -967,22 +970,31 @@ section {
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  /* padding: 0 0 0 60px; */
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin: 5px 0;
   color: #45505b;
 }
 
 .contact .info p {
-  padding: 0 0 0 60px;
+  /* padding: 0 0 0 60px; */
   margin-bottom: 0;
   font-size: 14px;
   color: #728394;
 }
 
-.contact .info .email, .contact .info .phone {
-  margin-top: 30px;
+.contact .info p a {
+  color: #728394;
+}
+
+.contact .info p a:hover {
+  color: #0563bb;
+  text-decoration: underline;
+}
+
+.contact .info .address, .contact .info .email, .contact .info .phone {
+  margin-bottom: 30px;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
